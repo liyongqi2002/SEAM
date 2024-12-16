@@ -1,0 +1,15 @@
+<Instruction>Please choose the most relevant principle from the candidate principles to be considered when AI responses to the given query from the user.</Instruction>
+
+<Candidate Principles>
+{candidate_principles_str}</Candidate Principles>
+
+<Demonstrations>
+{demonstrations_str}</Demonstrations>
+
+<Hint>Follow the given instruction and imitate the given demonstrations to complete the following instance.</Hint>
+
+<Instance>
+<User>{user_query}</User>
+<Response 1 from AI>{given_response_1}</Response 1 from AI>
+<Response 2 from AI>{given_response_2}</Response 2 from AI>
+<Relevant Principle>

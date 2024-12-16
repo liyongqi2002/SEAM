@@ -1,0 +1,12 @@
+<Instruction>Provide a detailed explanation of why "{statement}" and your explanation must be based on the given relevant principles.</Instruction>
+
+<Demonstrations>
+{demonstrations_str}</Demonstrations>
+
+<Hint>Follow the given instruction and imitate the given demonstrations to complete the following instance. </Hint>
+
+<Instance>
+<User>{user_query}</User>
+<Response 1 from AI>{response1}</Response 1 from AI>
+<Response 2 from AI>{response2}</Response 2 from AI>
+<Relevant Principle>{relevant_principle}</Relevant Principle>
